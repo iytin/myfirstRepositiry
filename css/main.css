@@ -1,0 +1,50 @@
+@charset "utf-8";
+body{overflow-y:scroll;overflow-x:hidden}
+.line{width:1000px;height:20px;margin:0 auto;background-color:red}
+.open{position:relative;width:1000px;height:0px;margin:0 auto;overflow:hidden}
+#mapinthis{position: relative}
+.ui-resizable-handle{position:absolute;font-size:0.1px;z-index:99999;display:block;}
+.ui-resizable-se{cursor:se-resize;width:27px;height:27px;right:0;bottom:0;background-image:url(../img/resize.png)}
+#map{width:1000px;height:100%;margin:0 auto}
+#help-visibility,#help-openlity{float:left}
+.open img.resize{position:absolute;right:0px;bottom:0px;cursor:se-resize;z-index:1}
+.map_center{position:relative;width:1000px;margin: 0 auto;border-top:1px solid red;text-align:center}
+.b_over{position:absolute;top:5px;right:7px;}
+.b_over .block_one{width:200px;height:130px;padding:5px;border:2px solid #999;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background:url(../img/opacity.png);overflow-y:scroll;z-index:45}
+.b_over .block_one p{font-size:12px;margin:1px 0;}
+.b_over .block_two{position:relative;width:200px;height:21px;margin-top:5px;padding:5px;border:2px solid #999;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background:url(../img/opacity.png);z-index:45}
+.b_over .block_two input{width:195px}
+.b_over .block_two input[name="reset"]{position:absolute;top:7px;right:8px;width:16px;height:16px;border:none;background:url('../img/res.png') no-repeat 50% 50%;cursor:pointer}
+.b_over .block_third{width:200px;height:21px;margin-top:5px;padding:5px;border:2px solid #999;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background:url(../img/opacity.png);z-index:45}
+.b_over .block_third input{width:195px}
+.b_over .block_fourth{position:relative;width:200px;height:17px;margin-top:5px;padding:5px;border:2px solid #999;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background:url(../img/opacity.png);z-index:45;overflow:hidden}
+.b_over .block_fourth span{position:absolute;top:0;right:0;width:11px;height:11px;background:url(../img/minplus.png);cursor:pointer}
+.b_over .block_fourth p{margin:0 0 5px;text-align:left}
+.b_over .block_fourth input{width:195px}
+.b_over .block_fifth{width:200px;height:15px;margin-top:5px; text-align: center; font-size: 12; padding:5px;border:2px solid #999;border-radius:5px;-moz-border-radius:5px;-webkit-border-radius:5px;background:url(../img/opacity.png);z-index:45}
+.load_block{position:absolute;top:0;left:0;width:100%;height:100%;background-image:url(../img/bg_load.png);z-index:999}
+.load_block img{position:absolute;top:50%;left:50%;width:60px;margin-top:-30px;margin-left:-30px}
+.b_over .block_one p {background-color:white;}
+#balun{position:absolute;display:none;float:left;min-width:270px;max-width:300px;padding:10px;margin:0 0 9px -20px;background-color:#FFFFFF;border:1px solid rgba(255, 255, 255, 0.25);border-radius:10px 10px 10px 10px;box-shadow:0 0 3px #555555;color:#000000;font-size:11px;text-align:left;z-index:2000}
+#balun .close{background:url("http://api-maps.yandex.ru/i/0.3/balloon/close.gif") no-repeat scroll 0 0 transparent;cursor:pointer;height:13px;margin-right:5px;margin-top:5px;position:absolute;right:0;top:0;width:13px}
+#balun .tail{border-left:10px solid transparent;border-right:10px solid transparent;border-top:10px solid #FFFFFF;bottom:-10px;position:absolute}
+.block_help{position:absolute;width:270px;background:#FFF;border:1px solid rgba(255, 255, 255, 0.25);border-radius:10px 10px 10px 10px;box-shadow:0 0 3px #555555;color:#000000;text-align:left}
+.block_help .content{padding:5px 10px 10px}
+.block_help .content p{font-size:12px;margin:0}
+	
+.h_one{top:45px;left:92px;height:45px}
+.h_one .tail{top:-10px;left:10px;position:absolute;border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:10px solid #FFFFFF}
+	
+.h_two{bottom:15px;left:20px;height:45px}
+.h_two .tail{bottom:-10px;left:10px;position:absolute;border-left:10px solid transparent;border-right:10px solid transparent;border-top:10px solid #FFFFFF}
+	
+.h_three{top:6px;right:235px;height:45px}
+.h_three .tail{top:10px;right:-10px;position:absolute;border-left:10px solid #FFFFFF;border-top:10px solid transparent;border-bottom:10px solid transparent}
+	
+.h_four{top:151px;right:235px;height:90px}
+.h_four .tail{top:10px;right:-10px;position:absolute;border-left:10px solid #FFFFFF;border-top:10px solid transparent;border-bottom:10px solid transparent}
+.h_four .tail_two{top:50px;right:-10px;position:absolute;border-left:10px solid #FFFFFF;border-top:10px solid transparent;border-bottom:10px solid transparent}
+	
+.h_five{top:310px;right:50px;height:45px}
+.h_five .tail{top:-10px;right:10px;position:absolute;border-left:10px solid transparent;border-right:10px solid transparent;border-bottom:10px solid #FFFFFF}
+.ymaps-b-clusters-content__sidelist-item_state_current{background: none repeat scroll 0 0 red!important}
