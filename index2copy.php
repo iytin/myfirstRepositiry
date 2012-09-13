@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <? require_once 'cconectdb.php';?>
+    <? require_once 'cvconectdb.php';?>
     
     <meta charset="utf-8" />
     <title>Координаты</title>
