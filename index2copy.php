@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <? require_once 'conectdb.php';?>
+    <? require_once 'cconectdb.php';?>
     
     <meta charset="utf-8" />
     <title>Координаты</title>
